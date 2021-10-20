@@ -270,12 +270,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Sliders
 --------------------------------------------------------------*/
 
-#carousel .carousel-item.b1{
+/*#carousel .carousel-item.b1{
   background-image: url("../assets/img/Slider/1-01.jpg");
 }
-/*#carousel .carousel-item.b2{
+#carousel .carousel-item.b2{
   background-image: url("../assets/img/2-01.jpg");
-}*/
+}
 #carousel .carousel-item.b3{
   background-image: url("../../assets/img/Slider/3-01.jpg");
 }
@@ -306,6 +306,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #carousel .carousel-item.b11{
   background-image: url("../assets/img/Slider/11-01.jpg");
 }
+*/
 
 #carousel .carousel-item{
   height:100vh;
