@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 
 #carousel .carousel-item.b1{
-  background-image: url("assets/img/1-01.jpg");
+  background-image: url("../img/1-01.jpg");
 }
 #carousel .carousel-item.b2{
   background-image: url("assets/img/Slider/2-01.jpg");
