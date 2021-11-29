@@ -49,6 +49,22 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 /*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -59,7 +75,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background: #1e4356;
 }
 #header.header-transparent {
-  background: none;
+  background: #36a4fe;
 }
 #header.header-scrolled {
   background: rgba(30, 67, 86, 0.8);
@@ -395,11 +411,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 #hero .container {
   text-align: center;
-  background: rgba(255, 255, 255, 0.9);
+  /*background: rgba(255, 255, 255, 0.9);*/
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 50px;
-  border-top: 4px solid #3fbbc0;
+  /*border-top: 4px solid #3fbbc0;*/
 }
 @media (max-width: 1200px) {
   #hero .container {
@@ -408,14 +424,16 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   }
 }
 #hero h2 {
-  color: #2f2f2f;
+  color: #fff;
   margin-bottom: 20px;
   font-size: 36px;
   font-weight: 700;
+  text-shadow: 3px 3px 3px black; 
 }
 #hero p {
   margin: 0 auto 30px auto;
-  color: #555555;
+  color: #fff;
+  text-shadow: 3px 3px 3px black; 
 }
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
@@ -628,8 +646,8 @@ section {
   padding-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 28px;
-  font-weight: 400;
+  font-size: 36px;
+  font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
