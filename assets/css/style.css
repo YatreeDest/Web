@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #36AFE4; /* Themed Color - Yatree Destination */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -64,6 +64,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 8px;
 }
 
+.button:hover{
+
+  text-align: #36AFE4;
+  background-color: #fff;
+  border: 2px solid #36AFE4;
+
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
