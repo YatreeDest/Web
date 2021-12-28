@@ -747,8 +747,8 @@ section {
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  width: 72px;
-  height: 72px;
+  width: 90px;
+  height: 90px;
 }
 .services .icon i {
   font-size: 36px;
